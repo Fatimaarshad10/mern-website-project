@@ -1,0 +1,585 @@
+/* ___CARD____ */
+.card {
+  border: none;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "FuturaPT", Arial, sans-serif;
+  line-height: 24px;
+}
+
+/* ____SELECT_____ */
+a {
+  color: black;
+}
+
+.input {
+  font-family: "FuturaPT", "Arial", "sans-serif";
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(137, 134, 134);
+  width: 12rem;
+}
+
+.input2 {
+  font-family: "FuturaPT", "Arial", "sans-serif";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgb(137, 134, 134);
+  width: 13rem;
+  height: 5vh;
+}
+
+@media only screen and (max-width: 1191px) {
+  .filter-style-change {
+    background-color: blueviolet;
+    display: none;
+  }
+}
+
+.Select-form {
+  width: 194px;
+}
+
+.select-Text {
+  height: 5vh;
+}
+
+.let {
+  font-family: "FuturaPT", "Arial", "sans-serif";
+  font-weight: 300;
+}
+
+.search-value {
+  height: 2rem;
+  background-color: rgb(247, 247, 247);
+}
+
+.select {
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgb(137, 134, 134);
+  border: 0px;
+  outline: 0px;
+}
+
+/* _____FOOTER_____ */
+.paypal {
+  width: 2rem;
+}
+
+.mastercard {
+  width: 2rem;
+  margin-left: 0.2rem;
+}
+
+.sizing {
+  font-size: 0.9rem;
+}
+
+/*************************/
+/*FOOTER BACKGROUND IMAGE*/
+/*************************/
+.bg-img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://thumb.tildacdn.com/tild3338-3763-4666-a530-616261393533/-/format/webp/__12.jpg");
+  height: 180px;
+  background-position: center bottom;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer-container{
+  display: grid;
+ padding:  2rem;
+ font-size: 1rem;
+  grid-template-columns: repeat(4,1fr);
+}
+.spread{
+  justify-self: center;
+}
+
+@media (width <= 800px){
+  .footer-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (width <=400px){
+  .footer-container{
+
+
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    text-align: center;
+ font-size: 0.5rem;
+  }
+  .footer-container h5{
+ font-size: 0.5rem;
+
+  }
+  .paypal {
+    width: 1rem;
+  }
+  
+  .mastercard {
+    width: 1rem;
+  }
+  
+ 
+}
+
+.footer-image {
+  max-width: 40vh;
+  width: 100%;
+  height: auto;
+  margin-top: -2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-img2 {
+    height: 300px;
+  }
+}
+
+/* About page  */
+
+.about {
+  height: 35rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+
+.about-h {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.23;
+}
+
+.about-pp {
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 300;
+}
+
+.about-p1 {
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 300;
+  margin-top: 28px;
+}
+.about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* contact page  */
+.contact {
+  text-align: center;
+}
+
+.contact-h {
+  margin-top: 2rem;
+}
+
+.contact-name {
+  font-size: 12px;
+  line-height: 1.55;
+  font-weight: 300;
+}
+
+.contact-link {
+  color: #be8786;
+}
+
+.contact-h1 {
+  font-size: 20px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.contact-phone {
+  margin-top: 45px;
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.contact-p {
+  margin-top: -0.9rem;
+}
+
+.contact-h-bold {
+  font-weight: 700;
+}
+
+.contact-image {
+  margin-top: -2rem;
+  width: 10rem;
+  border-radius: 100%;
+}
+/* commission  */
+.comm-main {
+  margin-bottom: 105px;
+  font-family: "FuturaPT", Arial, sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+.comm-container {
+  display: grid;
+  grid-template-columns: 12fr;
+  padding: 0rem 2rem;
+  margin: 0 auto;
+  max-width: 63rem;
+}
+@media only screen and (max-width: 550px) {
+  .comm-container {
+    margin-top: -3rem;
+  }
+}
+.comm-p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.55;
+}
+
+.comm-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background: #222;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background-color: #be8786;
+}
+@media only screen and (max-width: 950px) {
+  .comm-circle {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 100px;
+    background: #222;
+    position: absolute;
+    margin-left: 0.5rem;
+    border: 2px solid #fff;
+    background-color: #be8786;
+  }
+}
+.comm-horizontal_line {
+  border-left: 2px solid rgb(206, 206, 206);
+  height: 27rem;
+  max-height: 40rem;
+  left: 50%;
+  position: absolute;
+}
+@media only screen and (max-width: 990px) {
+  .comm-horizontal_line {
+    border-left: 2px solid rgb(206, 206, 206);
+    height: 60vh;
+    left: 0.8rem;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .comm-horizontal_line {
+    height: 65vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .comm-horizontal_line {
+    height: 75vh;
+  }
+}
+
+.comm-h {
+  font-family: "FuturaPT", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #000000;
+}
+.comm-card {
+  width: 50%;
+  text-align: left;
+  margin-left: 8rem;
+}
+.comm-card-h {
+  margin-left: 12rem;
+}
+@media only screen and (max-width: 950px) {
+  .comm-card {
+    width: 75%;
+    margin-left: 0rem;
+  }
+  .comm-card-h {
+    margin-left: 0rem;
+  }
+}
+.comm-card1 {
+  width: 45%;
+  justify-self: end;
+}
+@media only screen and (max-width: 950px) {
+  .comm-card1 {
+    width: 100%;
+  }
+}
+
+.comm-card2 {
+  width: 50%;
+  padding-right: 40px;
+  text-align: right;
+}
+.comm-card2-h {
+  margin-left: 20rem;
+}
+@media only screen and (max-width: 950px) {
+  .comm-card2 {
+    width: 100%;
+    text-align: left;
+  }
+  .comm-card2-h {
+    margin-left: 0rem;
+  }
+}
+
+.comm-card3 {
+  width: 45%;
+  justify-self: end;
+}
+
+@media only screen and (max-width: 950px) {
+  .comm-card3 {
+    width: 100%;
+  }
+}
+
+.comm-card4 {
+  width: 50%;
+  padding-right: 40px;
+  text-align: right;
+}
+.comm-card4-h {
+  margin-left: 19rem;
+}
+@media only screen and (max-width: 950px) {
+  .comm-card4 {
+    width: 100%;
+    text-align: left;
+  }
+  .comm-card4-h {
+    margin-left: 0rem;
+  }
+}
+
+.comm-h-1 {
+  font-size: 2.2rem;
+  margin-top: 6rem;
+  font-weight: 600;
+}
+
+.comm-second-container {
+  display: flex;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 52rem;
+  gap: 11rem;
+}
+@media only screen and (max-width: 700px) {
+  .comm-second-container {
+    gap: 3rem;
+  }
+}
+
+.comm-price-add {
+  width: 48.6%;
+  text-align: end;
+}
+@media only screen and (max-width: 700px) {
+  .comm-price-add {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .comm-price-add {
+    width: 48%;
+  }
+}
+.comm-from {
+  font-size: 12px;
+  line-height: 1.55;
+  font-weight: 300;
+  color: #000000;
+  text-align: right;
+}
+.comm-heading1 {
+  margin-left: 6rem;
+  line-height: 1.17;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.comm-image-container {
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ margin-left: 1.5rem;
+}
+
+
+.comm-image1 {
+  height: 18vw;
+  width: 22vw;
+  margin-top: 1rem;
+  
+}
+@media (width <= 600px){
+  .comm-image-container {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+ margin-left: 0rem;
+
+   }
+   .comm-image1 {
+  height: 30vw;
+    width: 45vw;
+ margin-left: 0.5rem;
+
+  }
+
+  
+}
+.Image1 {
+  background: url(https://thumb.tildacdn.com/tild3566-6261-4537-a537-373361653634/-/resize/600x400/-/format/webp/photo_2022-12-06_17-.jpg)
+    center center / cover no-repeat;
+}
+
+.Image2 {
+  background: url(https://thumb.tildacdn.com/tild3637-3866-4537-b735-323037623164/-/resize/600x400/-/format/webp/photo_2022-12-06_17-.jpg)
+    center center / cover no-repeat;
+}
+
+.Image3 {
+  background: url(https://thumb.tildacdn.com/tild3735-6536-4461-b661-326365613635/-/resize/600x400/-/format/webp/photo_2022-12-06_17-.jpg)
+    center center / cover no-repeat;
+}
+
+.Image4 {
+  background: url(https://thumb.tildacdn.com/tild6536-3864-4835-a265-346464366637/-/resize/600x400/-/format/webp/photo_2022-12-06_17-.jpg)
+    center center / cover no-repeat;
+}
+
+.Image5 {
+  background: url(https://thumb.tildacdn.com/tild3666-3632-4963-b136-316665333939/-/resize/600x400/-/format/webp/photo_2022-12-06_17-.jpg)
+    center center / cover no-repeat;
+}
+
+.Image6 {
+  background: url(https://thumb.tildacdn.com/tild6435-3333-4331-b437-336633656166/-/resize/600x400/-/format/webp/photo_2022-12-06_17-.jpg)
+    center center / cover no-repeat;
+}
+
+.Image7 {
+  background: url(https://thumb.tildacdn.com/tild3533-3134-4230-b065-346530336539/-/resize/600x400/-/format/webp/__2022-12-06_171615.jpg)
+    center center / cover no-repeat;
+}
+
+.Image8 {
+  background: url(https://thumb.tildacdn.com/tild3635-3532-4036-b139-633364303135/-/resize/600x400/-/format/webp/__2022-12-06_171636.jpg)
+    center center / cover no-repeat;
+}
+
+.cmm-small-input {
+  height: 60px;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 16px;
+  line-height: 1.33;
+  border-radius: 0;
+  font-size: 16px;
+  margin-bottom: 1.2rem;
+}
+
+.comm-comment {
+  height: 10.6rem;
+}
+
+.comm-label {
+  font-weight: 300;
+}
+
+.comm-calender {
+  width: 33%;
+}
+
+.comm-btn {
+  background-color: #be8786;
+  border: none;
+  border-radius: 0%;
+  margin: 2rem 0rem;
+  margin-left: 17rem;
+  height: 4rem;
+  width: 10rem;
+  font-weight: 700;
+}
+
+.comm-container-2 {
+  width: 45rem;
+  margin-left: 17rem;
+}
+@media only screen and (max-width: 900px) {
+  .comm-container-2 {
+    width: 25rem;
+    margin-left: 3rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .comm-btn {
+    background-color: #be8786;
+    border: none;
+    border-radius: 0%;
+    margin: 2rem 0rem;
+    margin-left: 7rem;
+    height: 4rem;
+    width: 10rem;
+    font-weight: 700;
+  }
+}
+
+/* contact end css  */
+@media only screen and (max-width: 990px) {
+  .info-card-main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .info-card-img {
+    margin-left: 40px;
+    width: 120em;
+  }
+
+  .info-card-text {
+    text-align: center;
+    width: 130em;
+  }
+}
+/* detail */
+
+.detail-input {
+  display: flex;
+}
+
+.detail-button-color {
+  color: black;
+}
+
